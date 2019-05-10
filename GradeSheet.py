@@ -1,7 +1,7 @@
 Math = int(input('Enter your Maths Marks '))
-Programming = int(input('Enter your Programming Marks'))
+Programming = int(input('Enter your Programming Marks '))
 Networking = int(input('Enter your Networking Marks '))
-English = int(input('Enter your English Marks'))
+English = int(input('Enter your English Marks '))
 PakStudies = int(input('Enter your Pak_Studies Marks '))
 
 Total = Math+Programming+Networking+English+PakStudies
@@ -11,15 +11,15 @@ Percentage = round((Total/500) * 100)
 print('------Percentage  '+str(Percentage)+' % ------')
 print('')
 if Percentage > 80:
-    print('------ You have A+ grade ------')
-elif Percentage>70:
-    print('------ You have A grade ------')
+    print('------ Your Grade is A+ ------')
+elif Percentage > 70:
+    print('------ Your Grade is A ------')
 elif Percentage > 60:
-    print('------ You have B grade ------')
+    print('------ Your Grade is B ------')
 elif Percentage > 50:
-    print('------ You have C grade ------')
+    print('------ Your Grade is C ------')
 elif Percentage > 45:
-    print('------ You have D grade ------')
+    print('------ Your Grade is D ------')
 else:
     print('------ You are Fail ------')
 
